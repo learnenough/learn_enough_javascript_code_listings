@@ -1,0 +1,22 @@
+$ npm test
+
+  Phrase
+    #palindrome
+      ✓ should return false for a non-palindrome
+      ✓ should return true for a plain palindrome
+      ✓ should return true for a mixed-case palindrome
+      1) should return true for a palindrome with punctuation
+
+
+  3 passing (8ms)
+  1 failing
+
+  1) Phrase
+       #palindrome
+         should return true for a palindrome with punctuation:
+
+      AssertionError [ERR_ASSERTION]: false == true
+      + expected - actual
+
+      -false
+      +true

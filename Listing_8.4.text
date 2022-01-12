@@ -1,0 +1,8 @@
+$ npm test
+
+  Phrase
+    #palindrome()
+      ✓ should return false for a non-palindrome
+      ✓ should return true for a plain palindrome
+
+  2 passing (6ms)

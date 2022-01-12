@@ -1,0 +1,5 @@
+$ node foreach.js
+ant
+cat
+bat
+42

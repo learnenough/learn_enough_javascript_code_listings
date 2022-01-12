@@ -1,0 +1,13 @@
+$ npm test
+
+  Phrase
+    #palindrome
+      ✓ should return false for a non-palindrome
+      ✓ should return true for a plain palindrome
+      ✓ should return true for a mixed-case palindrome
+      ✓ should return true for a palindrome with punctuation
+    #letters
+      ✓ should return only letters
+
+
+  5 passing (6ms)

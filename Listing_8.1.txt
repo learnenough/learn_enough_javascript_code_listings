@@ -1,0 +1,27 @@
+$ npm init
+package name: (mhartl-palindrome)
+version: (0.1.0)
+description: Palindrome detector
+entry point: (index.js)
+test command: mocha
+git repository: https://github.com/mhartl/mhartl-palindrome
+keywords: palindrome learn-enough javascript
+author: Michael Hartl
+license: (ISC)
+About to write to /Users/mhartl/repos/palindrome/package.json:
+
+{
+  "name": "mhartl-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhartl/mhartl-palindrome"
+  },
+  "author": "Michael Hartl",
+  "license": "ISC"
+}

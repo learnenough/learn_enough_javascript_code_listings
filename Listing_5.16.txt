@@ -1,0 +1,18 @@
+$ node foreach.js
+ant
+bat
+cat
+42
+T
+o
+
+b
+e
+.
+.
+.
+t
+i
+o
+n
+:

@@ -1,0 +1,3 @@
+$ touch .nojekyll
+$ git add -A
+$ git commit -m "Prevent Jekyll build"

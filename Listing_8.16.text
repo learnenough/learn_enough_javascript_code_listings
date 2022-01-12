@@ -1,0 +1,36 @@
+$ npm test
+
+  Phrase
+    #palindrome
+      ✓ should return false for a non-palindrome
+      ✓ should return true for a plain palindrome
+      ✓ should return true for a mixed-case palindrome
+      1) should return true for a palindrome with punctuation
+    #letters
+      2) should return only letters
+
+
+  3 passing (9ms)
+  2 failing
+
+  1) Phrase
+       #palindrome
+         should return true for a palindrome with punctuation:
+
+      AssertionError [ERR_ASSERTION]: false == true
+      + expected - actual
+
+      -false
+      +true
+
+      at Context.<anonymous> (test/test.js:25:7)
+
+  2) Phrase
+       #letters
+         should return only letters:
+
+      AssertionError [ERR_ASSERTION]: 'Madam, I\'m Adam.' === 'MadamImAdam'
+      + expected - actual
+
+      -Madam, I'm Adam.
+      +MadamImAdam
